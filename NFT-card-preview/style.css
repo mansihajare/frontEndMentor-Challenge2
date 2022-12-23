@@ -1,0 +1,212 @@
+:root {
+  --Soft-blue: hsl(215, 51%, 70%);
+  /* --Cyan: hsl(178, 100%, 50%); */
+  --Very-dark-blue-main: hsl(217, 54%, 11%); /* main background*/
+  --Very-dark-blue-card: hsl(216, 50%, 16%); /* (card BG)  */
+  --Very-dark-blue-line: hsl(215, 32%, 27%);
+}
+body {
+  background-color: var(--Very-dark-blue-main);
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+h2 {
+  font-family: "Hind Siliguri", sans-serif;
+  margin-top: 10px;
+  cursor: pointer;
+}
+p {
+  color: var(--Soft-blue);
+  cursor: pointer;
+}
+
+p,
+h3 {
+  font-size: 18px;
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Outfit", sans-serif;
+}
+.container {
+  padding: 20px;
+  background-color: var(--Very-dark-blue-card);
+  border-radius: 15px;
+  margin: 2rem;
+  height: 80vh;
+  width: 57vw;
+}
+img {
+  height: 43vh;
+  width: 55vw;
+  padding: 0.2rem;
+  border-radius: 13px;
+  font-weight: 300px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cont2 {
+  display: flex;
+  margin-top: -20px;
+}
+#eth {
+  color: hsl(178, 100%, 50%);
+}
+
+.days {
+  justify-content: flex-end;
+}
+#clock {
+  height: 20px;
+  width: 20px;
+  margin-top: 1.1rem;
+  margin-left: 6rem;
+}
+#ethereum {
+  height: 22px;
+  width: 12px;
+  margin-top: 1rem;
+  margin-right: 1.5px;
+}
+.line {
+  width: 17.2rem;
+  height: 1.9px;
+  background-color: var(--Very-dark-blue-line);
+}
+#photo {
+  height: 2rem;
+  width: 2rem;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+.create {
+  display: flex;
+  margin-top: 3px;
+}
+.text {
+  text-align: center;
+  margin-left: 1rem;
+}
+em {
+  color: #fff;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media (min-width: 992px) {
+  img {
+    height: 250px;
+    width: 20vw;
+    padding: 0.2rem;
+    border-radius: 13px;
+    font-weight: 300px;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    margin: auto;
+    height: 76vh;
+    width: 21vw;
+    margin-top: 3rem;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    height: 73vh;
+  }
+  img {
+    height: 30vh;
+    width: 52vw;
+  }
+  .line {
+    width: 13rem;
+    height: 1.9px;
+    background-color: var(--Very-dark-blue-line);
+  }
+  #clock {
+    margin-top: 1.1rem;
+    margin-left: 2rem;
+  }
+  .days p {
+    font-size: 13px;
+    margin-top: 22px;
+  }
+  .text p {
+    font-size: 12px;
+    margin-top: 22px;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    height: 60vh;
+    width: 55vw;
+  }
+  img {
+    height: 30vh;
+    width: 50vw;
+  }
+  h2 {
+    font-size: medium;
+  }
+  p,
+  h3 {
+    font-size: 13px;
+  }
+  .line {
+    width: 10rem;
+  }
+
+  #clock {
+    margin-left: 7px;
+  }
+  .text p {
+    font-size: 10px;
+    margin-top: 25px;
+  }
+}
+@media (max-width: 1350px) {
+  body {
+    text-align: centre;
+  }
+  .container {
+    width: 12rem;
+    height: 25rem;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 0.75em;
+  }
+  #clock {
+    margin-left: 2px;
+  }
+  img {
+    width: 12rem;
+    height: 12rem;
+  }
+  #clock {
+    margin-left: 7px;
+  }
+  .line {
+    width: 12rem;
+  }
+  .days p {
+    font-size: 15px;
+    margin-top: 22px;
+  }
+  .text p {
+    margin-top: 28px;
+  }
+}
